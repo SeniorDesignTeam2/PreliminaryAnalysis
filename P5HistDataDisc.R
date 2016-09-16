@@ -16,4 +16,7 @@ biVar= bivariate(df1, 'xx','xx')
 
 #now try to focus on one variable
 # plot all features against that variable
-dplot=Plot(df, 'xx')
+dplot=Plot(df1, 'xx')
+
+#replace all special characters (specified by vector vec) in the dataframe mydata with NA
+removeSpecial(df1, vec=xx)
